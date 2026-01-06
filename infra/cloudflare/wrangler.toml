@@ -10,7 +10,7 @@ compatibility_flags = ["nodejs_compat"]
 [env.production]
 name = "1000words"
 routes = [
-  { pattern = "1000words.example.com/*", zone_name = "example.com" }
+  { pattern = "1000words.page/*", zone_name = "1000words.page" }
 ]
 
 # Staging environment
@@ -27,7 +27,7 @@ preview_bucket_name = "1000words-stories-preview"
 [[d1_databases]]
 binding = "DB"
 database_name = "1000words"
-database_id = "YOUR_DATABASE_ID"
+database_id = "f0a81b4a-ce67-4bec-8c0c-a5a928c03592"
 
 # Environment variables
 [vars]
