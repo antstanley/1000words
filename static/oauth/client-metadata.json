@@ -1,0 +1,12 @@
+{
+  "client_id": "http://localhost:5173/oauth/client-metadata.json",
+  "client_name": "1000 Words",
+  "client_uri": "http://localhost:5173",
+  "logo_uri": "http://localhost:5173/favicon.svg",
+  "redirect_uris": ["http://localhost:5173/oauth/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "scope": "atproto transition:generic",
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "dpop_bound_access_tokens": true
+}
