@@ -1,2 +1,2 @@
 // Re-export all components
-export {};
+export { default as AuthGuard } from "./AuthGuard.svelte";
